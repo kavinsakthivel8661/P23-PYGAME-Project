@@ -3494,7 +3494,7 @@ class Game:
             pygame.draw.rect(self.screen, col, (0, y, SCREEN_WIDTH, 4))
 
         # title
-        title = self.font_xl.render("The Adventurer's Quest", True, GOLD)
+        title = self.font_xl.render("The Kavin's Quest", True, GOLD)
         self.screen.blit(title, (SCREEN_WIDTH // 2 - title.get_width() // 2,
                                  110))
         sub = self.font_md.render("A Pixel RPG Adventure", True, WHITE)
